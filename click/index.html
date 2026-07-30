@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Weiterleitung...</title>
+    <script>
+        (function() {
+            // This is the base URL for your offer
+            const offerBaseUrl = "https://fortunena.com/?a=2397&c=7556";
+
+            // Get the full query string from the current URL (e.g., "?s1=ads&s2=gclid123")
+            const queryString = window.location.search;
+
+            
+            window.location.href = offerBaseUrl + queryString.replace('?', '&');
+        })();
+    </script>
+</head>
+<body>
+    <!-- Body is intentionally left empty for the fastest possible redirect -->
+</body>
+</html>
+
